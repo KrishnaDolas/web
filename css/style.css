@@ -1,3 +1,23 @@
 p {
   color: blue;
 }
+
+.red-text {
+  color: red;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.green-text {
+  color: green;
+}
+
+#prod-info {
+  font-style: italic;
+}
+
+h1 {
+  color: chartreuse !important;
+}
