@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
       .cls {
         border: 1px solid grey;
         height: 450px;
       }
 
-      #div2 {
+      #div2,
+      #div6 {
         background-image: url("../assets/img/background1.jpg");
+        background-size: 100%;
+        background-attachment: fixed;
       }
 
-      #div4 {
+      #div4,
+      #div8 {
         background-image: url("../assets/img/background2.jpg");
         background-size: 100%;
         background-attachment: fixed;
       }
       #div1,
-      #div5 {
+      #div9 {
         height: 100px;
       }
 
@@ -37,20 +44,28 @@
       .menu li:hover {
         box-shadow: 1px 1px 2px orangered;
       }
+
+      .menu a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
     <header class="cls" id="div1">
       <ul class="menu">
-        <li>Home</li>
-        <li>Products</li>
-        <li>About Us</li>
-        <li>Help</li>
+        <a href="#div3"><li>HTML</li> </a>
+        <a href="#div5"><li>VDO</li> </a>
+        <a href="#div7"><li>MAP</li> </a>
+        <a href="#"><li>Help</li> </a>
       </ul>
     </header>
     <div class="cls" id="div2"><h1>2</h1></div>
-    <div class="cls" id="div3"><h1>3</h1></div>
+    <div class="cls" id="div3"><h1>3 HTML</h1></div>
     <div class="cls" id="div4"><h1>4</h1></div>
-    <footer class="cls" id="div5"><h1>5</h1></footer>
+    <div class="cls" id="div5"><h1>5 Vdo</h1></div>
+    <div class="cls" id="div6"><h1>6</h1></div>
+    <div class="cls" id="div7"><h1>7 Map</h1></div>
+    <div class="cls" id="div8"><h1>8</h1></div>
+    <footer class="cls" id="div9"><h1>9</h1></footer>
   </body>
 </html>
