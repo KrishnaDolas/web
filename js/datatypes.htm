@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var firstName = "Alex";
+      var rNo = 10;
+      var isPass = true;
+      var city;
+      var st = null;
+
+      var subs = ["Math", "Chem", "Bio"];
+      console.table(subs);
+
+      var add = {
+        city: "Pune",
+        state: "Mh",
+      };
+      console.table(add);
+      document.write(city);
+      document.write("<hr/>");
+
+      document.write(firstName.toUpperCase());
+      document.write("<hr/>");
+      document.write(st);
+
+      document.write(
+        "<hr/>Student Name : " +
+          firstName +
+          ", having roll no : " +
+          rNo +
+          ", result : " +
+          isPass
+      );
+
+      document.write(`<br/>Student Name : 
+          ${firstName} , having roll no : 
+          ${rNo} , result : 
+          ${isPass}`);
+
+      document.write(`<hr> subs = ${subs}`);
+      document.write(`<hr> Address = ${add}`);
+      document.write(`<hr> Address = ${add.city}`);
+      document.write(`<hr> Address = ${add.state}`);
+    </script>
+  </body>
+</html>
